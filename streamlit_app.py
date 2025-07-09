@@ -6,9 +6,9 @@ import json
 st.set_page_config(page_title="My Crypto Portfolio", layout="wide")
 st.title("My Crypto Portfolio")
 tab1, tab2 = st.tabs(["Dashboard", "Adicionar Ativo"])
-  with tab1:
-        st.header("Meu Dashboard")
-        st.success("Funcionando!")
+with tab1:
+      st.header("Meu Dashboard")
+      st.success("Funcionando!")
   with tab2:
         st.header("Adicionar Ativo")
         # Carregar top 100 criptos
